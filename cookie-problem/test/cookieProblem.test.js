@@ -2,7 +2,7 @@ const assert = require('assert');
 const cookieProblem = require('../cookieProblem');
 
 describe('Cookie Problem Test', () => {
-  it('should return 9 for [3,8,7,5]', () => {
+  it('should return 9 for [5,8,6,4]', () => {
     const giveCookies = cookieProblem([5, 8, 6, 4]);
     assert.deepEqual(giveCookies, 9);
   });
