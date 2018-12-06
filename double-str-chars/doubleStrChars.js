@@ -1,3 +1,6 @@
 module.exports = function doubleStrChars(str) {
-  // write your code in here
+  var type = typeof str;
+  if(type != 'string'){
+    return "not a string!"
+  }
 }
